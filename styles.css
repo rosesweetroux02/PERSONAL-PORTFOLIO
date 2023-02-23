@@ -33,6 +33,7 @@ header{
 
 .navlist{
     display: flex;
+    margin-left: 50px;
 }
 
 .navlist a{
@@ -61,7 +62,7 @@ header{
     width: 37px;
     height: 37px;
     position: fixed;
-    top: 92%;
+    top: 90%;
     left: 30%;
     z-index: 1000;
     display: flex;

@@ -1,0 +1,194 @@
+<!Doctype html>
+<html>
+<head></head>
+</body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<style type="text/css">
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+    body{
+    background-color: pink
+}
+
+h1{
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 25%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 22px 15%;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease;
+}
+
+.navlist{
+    display: flex;
+    margin-left: 50px;
+}
+
+.navlist a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all .45s ease;
+}
+
+.navlist a:hover{
+    color: #fff;
+}
+
+span{
+    color: darkblue;
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+}
+
+.about img{
+    height: 520px;
+    width: 400px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section{
+            padding: 25px 10%;
+        }
+
+.contact{
+            background: pink;
+            height: auto;
+            width: 100%;
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            align-items: center;
+            grid-gap: 6rem;
+        }
+
+        .contact-form h1{
+            font-size: 50px;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .contact-form p{
+            color: grey;
+            line-height: 23px;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-form form{
+            position: relative;
+        }
+
+        .contact-form form input, form textarea{
+            width: 100%;
+            padding: 17px;
+            border: none;
+            outline: none;
+            background: white;
+            color: black;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            border-radius: 10px;
+        }
+
+        .contact-form textarea{
+            resize: none;
+            height: 150px;
+        }
+
+        .contact-form form .btn{
+            display: inline-block;
+            background: white;
+            color: black;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 600;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            width: 220px;
+            cursor: pointer;
+        }
+
+        .contact-form form .btn:hover{
+            border: 2px solid plum;
+            background: transparent;
+            transform: scale(1.1);
+        }
+
+
+</style>
+<body >
+    <header>
+            <ul class="navlist">
+
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT ME</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="C:\Users\Rose Tebogo Ndhlovu\Documents\GitHub\Personal-Portfolio\Assets\documents\btcmp.pdf">DOWNLOAD RESUME</a>
+            <a href="contact.html">CONTACT ME</a>
+        </ul>
+   </header>
+
+   <section class="contact">
+    <div class="contact-form">
+        <h1>Get<span> In</span> Touch!</h1>
+        <p>I am available for freelance work. <br>Connect with me via <br>phone : <span>0792174900</span>
+            or <br>email : <span>rosetebogondhlovu@gmail.com</span>
+        </p>
+        <form action="https://formspree.io/f/mayzoeey" method="POST">
+            <input type="" name="Your Name" placeholder="Enter your name" required>
+            <input type="email" name="email" id="" placeholder="Enter your e-mail" required>
+            <input type="" placeholder="Write a subject" required>
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required>
+            </textarea>
+            <input type="submit" name="" value="submit" class="btn">
+        </form>
+    </div>
+    <div class="contact-img">
+        <img src="C:\Users\Rose Tebogo Ndhlovu\Documents\GitHub\Personal-Portfolio\Assets\images\n.png">
+    </div>
+</section>
+
+
+<body>
+</html>
